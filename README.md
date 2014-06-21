@@ -1,16 +1,17 @@
 ## Getting And Cleaning Data Peer Assessed Project
 ===================================================
 
-# Contents of the Repository
+#### Contents of the Repository
 1. README.md
 2. CodeBook.md
 3. run_analysis.R
 4. tidyDataSet.txt 
 
-# Prerequesites
+### Prerequesites
 The script run_analysis.R can be run as long as the Samsung data is in the working directory
-by running the command *source("run_analysis.R")* in the Console.
-The Samsung data can be obtained from the web page [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+by running in the Console the command 
+*source("run_analysis.R")* 
+The Samsung data can be downloaded as a zipped file from the site [UCI Machine Learning Repository:Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 
 
