@@ -1,5 +1,14 @@
-GettingAndCleaningData
-==========================
+### Getting And Cleaning Data Peer Assessed Project
+===================================================
+
+##Contents of the Repository
+
+1. README.md
+2. CodeBook.md
+3. run_analysis.R
+4. tidyDataSet.txt 
+
+
 
 #Cabecalho
 ##Cabecalho
