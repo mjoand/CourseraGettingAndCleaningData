@@ -5,9 +5,9 @@ GettingAndCleaningData
 ##Cabecalho
 ###Cabecalho
 
-*Elementos
-*de
-*lista
+* Elementos
+* de
+* lista
 
 1. Lista
 2. Numerada
@@ -20,3 +20,5 @@ GettingAndCleaningData
 
 [hiperlink](http://eueleeamaria.blogspot.pt/2014/06/nos-temos-tudo.html)
 [hiperlink](http://eueleeamaria.blogspot.pt/2014/06/nos-temos-tudo.html "hiperlink")
+
+(http://eueleeamaria.blogspot.pt/2014/06/nos-temos-tudo.html) esta aqui um link
