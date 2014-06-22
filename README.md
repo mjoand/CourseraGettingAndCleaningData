@@ -14,8 +14,10 @@
 #### 1.Contents of the Repository
 1. README.md
 2. CodeBook.md
-3. run_analysis.R
-4. tidyDataSet.txt 
+3. features_info.txt
+4. run_analysis.R
+5. tidyDataSet.txt 
+6. features_info.txt
 
 #### 2.Objectives of the Peer Assessed Project
 The objective of this project is to develope strategies for collecting, working with, and cleaning raw data sets in order to tidy data that can be used for
@@ -48,12 +50,11 @@ Each row corresponds to an observation for a  subject+activity pair taken from a
 and six possible activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS,SITTING, STANDING and LAYING).
 
 The first two columns correspond to the identification of each subject+activity pair, with first column corresponding to the subject identification within the 30 
-volunteer sample and the second column corresponds to the activity identification. Each of the remaining 66 columns corresponds to the average for the pair activity+subject
-of the mean and standard deviation of each measurement in the raw data set. Please see [CodeBook](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md)
+volunteer sample and the second column corresponds to the activity. Each of the remaining 66 columns corresponds to the average for the pair activity+subject
+of the mean and standard deviation of a given measurement collected in the Samsung data set. Please see [CodeBook](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md)
 a complete description of each variable.
 
 Each column is labeled with a descriptive variable name. Please see [CodeBook.](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md)
-
 
 #### 5.Running the run_analysis.R script
 For the script run_analysis.R to be run, it is pre required that the script and a copy of the **UCI HAR Dataset** folder containing the Samsung data are in the the working directory.
@@ -65,6 +66,7 @@ Once the R script and the samsung data folder are in the working directory, runn
 the tidy data set as a txt file that can be found in the working directory, **tidyDataSet.txt**. 
 
 #### 6.Methodology
+
 
 #### 7.Version
 The analysis was executed under a Windows software, Windows 7 and R version 3.1.0
