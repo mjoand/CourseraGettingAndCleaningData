@@ -11,7 +11,6 @@
 7. Version
 
 
-
 ##### 1.Contents of the Repository
 1. README.md
 2. CodeBook.md
@@ -19,6 +18,18 @@
 4. tidyDataSet.txt 
 
 ##### 2.Objectives of the Peer Assessed Project
+The objective of this project is to develope strategies for collecting, working with, and cleaning raw data sets in order to tidy data that can be used for
+later analysis.The students were asked to download and unzip a repository of data collected from the accelerometers from 
+the Samsung Galaxy S smartphone, subdivided in a training and a test sub-repositories, and create a single tidy data set, an R script and a Code Book. 
+
+The R script, **run_analysis.R**, should do the following:
+
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement. 
+3. Use descriptive activity names to name the activities in the data set
+4. Appropriately label the data set with descriptive variable names. 
+5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+ 
 
 ##### 3.The raw data set
 The raw data set consists of a database built form the recordings of thirty subjects performing acitivities of daily living while carrying a waist-mounted smartphone
