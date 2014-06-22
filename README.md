@@ -11,13 +11,13 @@
 7. Version
 
 
-##### 1.Contents of the Repository
+#### 1.Contents of the Repository
 1. README.md
 2. CodeBook.md
 3. run_analysis.R
 4. tidyDataSet.txt 
 
-##### 2.Objectives of the Peer Assessed Project
+#### 2.Objectives of the Peer Assessed Project
 The objective of this project is to develope strategies for collecting, working with, and cleaning raw data sets in order to tidy data that can be used for
 later analysis.The students were asked to download and unzip a repository of data collected from the accelerometers from 
 the Samsung Galaxy S smartphone, subdivided in a training and a test sub-repositories, and create a single tidy data set, an R script and a Code Book. 
@@ -31,7 +31,7 @@ The R script, **run_analysis.R**, should do the following:
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
  
 
-##### 3.The raw data set
+#### 3.The raw data set
 The raw data set consists of a database built form the recordings of thirty subjects performing acitivities of daily living while carrying a waist-mounted smartphone
 with embeded inertial sensors.
 
@@ -40,9 +40,22 @@ with embeded inertial sensors.
 For further information on the raw data set please see the [CodeBook](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md) included in this repository
 and the web page [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-##### 4.The tidy data set
+#### 4.The tidy data set
+The tidy data set consists of a table with 180 observations of 68 variables.
 
-##### 5.Running the run_analysis.R script
+
+Each row corresponds to an observation for a  subject+activity pair taken from a sample of 30 volunteers within an age bracket of 19-48 years
+and six possible activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS,SITTING, STANDING and LAYING).
+
+The first two columns correspond to the identification of each subject+activity pair, with first column corresponding to the subject identification within the 30 
+volunteer sample and the second column corresponds to the activity identification. Each of the remaining 66 columns corresponds to the average for the pair activity+subject
+of the mean and standard deviation of each measurement in the raw data set. Please see [CodeBook](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md)
+a complete description of each variable.
+
+Each column is labeled with a descriptive variable name. Please see [CodeBook.](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md)
+
+
+#### 5.Running the run_analysis.R script
 For the script run_analysis.R to be run, it is pre required that the script and a copy of the **UCI HAR Dataset** folder containing the Samsung data are in the the working directory.
  The Samsung data can be downloaded as a zipped file from the web page 
 [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set ](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
@@ -51,26 +64,9 @@ the *download.file* function, with the mode argument set as “wb”, in the console
 Once the R script and the samsung data folder are in the working directory, running the command *source("run_analysis.R")* in the console will return 
 the tidy data set as a txt file that can be found in the working directory, **tidyDataSet.txt**. 
 
+#### 6.Methodology
 
-##### 6.Methodology
-
-##### 7.Version
-
-
-* Elementos
-* de
-* lista
-
-1. Lista
-2. Numerada
+#### 7.Version
+The analysis was executed under a Windows software, Windows 7 and R version 3.1.0
 
 
-**bold**
-*italic*
-
-<cite>citacao</cite>
-
-[hiperlink](http://eueleeamaria.blogspot.pt/2014/06/nos-temos-tudo.html)
-[hiperlink](http://eueleeamaria.blogspot.pt/2014/06/nos-temos-tudo.html "hiperlink")
-
-(http://eueleeamaria.blogspot.pt/2014/06/nos-temos-tudo.html) esta aqui um link
