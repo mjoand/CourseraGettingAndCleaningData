@@ -23,7 +23,6 @@ and are, therefore non-dimensional (i.e. have no units).
 
 1. **subjectId** Identifier of the subjects in the 30 volunteers sample (integer).
 2. **activity** Activity performed by the subject during the experiment (Character: LAYING, SITTING, STANDING, WALKING, WALKING UPSTAIRS and WALKING DOWNSTAIRS).
-
 3. **timeBodyAccMeanX** The mean of the X axis for the acceleration for body acceleration signals on the time domain (numeric).
 4. **timeBodyAccMeanY** The mean of the Y axis for the acceleration for body acceleration signals on the time domain (numeric).
 5. **timeBodyAccMeanZ** The mean of the Z axis for the acceleration for body acceleration signals on the time domain (numeric).
@@ -54,43 +53,42 @@ and are, therefore non-dimensional (i.e. have no units).
 30. **timeBodyGyroStdX** The standard deviation of the X axis for the angular velocity on the time domain (numeric).
 31. **timeBodyGyroStdY** The standard deviation of the Y axis for the angular velocity on the time domain (numeric). 
 32. **timeBodyGyroStdZ** The standard deviation of the Z axis for the angular velocity on the time domain (numeric).
-
-33. **frequencyBodyAccMeanX** The mean of the X axis for the acceleration for body acceleration signals on the frequency domain (numeric).
-34. **frequencyBodyAccMeanY** The mean of the Y axis for the acceleration for body acceleration signals on the frequency domain (numeric).
-35. **frequencyBodyAccMeanZ** The mean of the Z axis for the acceleration for body acceleration signals on the frequency domain (numeric).
-36. **frequencyBodyAccStdX** The standard deviation of the X axis for the acceleration for body acceleration signals on the frequency domain (numeric).
-37. **frequencyBodyAccStdY** The standard deviation of the Y axis for the acceleration for body acceleration signals on the frequency domain (numeric).
-38. **frequencyBodyAccStdZ** The standard deviation of the Z axis for the acceleration for body acceleration signals on the frequency domain (numeric).
-39. **frequencyGravityAccMeanX** The mean of the X axis for the acceleration for gravity acceleration signals on the frequency domain (numeric).
-40. **frequencyGravityAccMeanY** The mean of the Y axis for the acceleration for gravity acceleration signals on the frequency domain (numeric).
-41. **frequencyGravityAccMeanZ** The mean of the Z axis for the acceleration for gravity acceleration signals on the frequency domain (numeric).
-42. **frequencyGravityAccStdX** The standard deviation of the X axis for the acceleration for gravity acceleration signals on the frequency domain (numeric).
-43. **frequencyGravityAccStdY** The standard deviation of the Y axis for the acceleration for gravity acceleration signals on the frequency domain (numeric).
-44. **frequencyGravityAccStdZ** The standard deviation of the Z axis for the acceleration for gravity acceleration signals on the frequency domain (numeric).
-45. **frequencyBodyAccJerkMeanX** The mean of the X axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
-46. **frequencyBodyAccJerkMeanY** The mean of the Y axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
-47. **frequencyBodyAccJerkMeanZ** The mean of the Z axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
-48. **frequencyBodyAccJerkStdX** The standard deviation of the X axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
-49. **frequencyBodyAccJerkStdY** The standard deviation of the Y axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
-50. **frequencyBodyAccJerkStdZ** The standard deviation of the Z axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
-51. **frequencyBodyGyroJerkMeanX** The mean of the X axis for the Jerk signal for the angular velocity on the frequency domain (numeric).
-52. **frequencyBodyGyroJerkMeanY** The mean of the Y axis for the Jerk signal for the angular velocity on the frequency domain (numeric).
-53. **frequencyBodyGyroJerkMeanZ** The mean of the Z axis for the Jerk signal for the angular velocity on the frequency domain (numeric).
-54. **frequencyBodyGyroJerkStdX** The standard deviation of the X axis for the Jerk signal for the angular velocity on the frequency domain (numeric).
-55. **frequencyBodyGyroJerkStdY** The standard deviation of the Y axis for the Jerk signal for the angular velocity on the frequency domain (numeric).
-56. **frequencyBodyGyroJerkStdZ** The standard deviation of the Z axis for the Jerk signal for the angular velocity on the frequency domain (numeric).
-57. **frequencyBodyGyroMeanX** The mean of the X axis for the angular velocity on the frequency domain (numeric). 
-58. **frequencyBodyGyroMeanY** The mean of the Y axis for the angular velocity on the frequency domain (numeric). 
-59. **frequencyBodyGyroMeanZ** The mean of the Z axis for the angular velocity on the frequency domain (numeric).
-60. **frequencyBodyGyroStdX** The standard deviation of the X axis for the angular velocity on the frequency domain (numeric).
-61. **frequencyBodyGyroStdY** The standard deviation of the Y axis for the angular velocity on the frequency domain (numeric). 
-62. **frequencyBodyGyroStdZ** The standard deviation of the Z axis for the angular velocity on the frequency domain (numeric). 
- 
-
-
-
-
-
+33. **timeBodyAccMagMean** Magnitude of the variable timeBodyAccMeanX, timeBodyAccMeanY and timeBodyAccMeanZ, calculated with the Euclidean norm (numeric).
+34. **timeBodyAccMagStd** Magnitude of the variable timeBodyAccStdX, timeBodyAccStdY and timeBodyAccStdZ, calculated with the Euclidean norm (numeric).
+35. **timeGravityAccMagMean** Magnitude of the variable timeGravityAccMeanX, timeGravityAccMeanY and timeGravityAccMeanZ, calculated with the Euclidean norm (numeric).
+36. **timeGravityAccMagStd** Magnitude of the variable timeGravityAccStdX, timeGravityAccStdY and timeGravityAccStdZ, calculated with the Euclidean norm (numeric).
+37. **timeBodyAccJerkMagMean** Magnitude of the variable timeBodyAccJerkMagMeanX, timeBodyAccJerkMagMeanY and timeBodyAccJerkMagMeanZ, calculated with the Euclidean norm (numeric).
+38. **timeBodyAccJerkMagStd** Magnitude of the variable timeBodyAccJerkMagStdX, timeBodyAccJerkMagStdY and timeBodyAccJerkMagStdZ, calculated with the Euclidean norm (numeric).
+39. **timeBodyAccJerkMagMean** Magnitude of the variable timeBodyAccJerkMagMeanX, timeBodyAccJerkMagMeanY and timeBodyAccJerkMagMeanZ, calculated with the Euclidean norm (numeric).
+40. **timeBodyAccJerkMagStd** Magnitude of the variable timeBodyAccJerkMagStdX, timeBodyAccJerkMagStdY and timeBodyAccJerkMagStdZ, calculated with the Euclidean norm (numeric).
+41. **timeBodyGyroJerkMagMean** Magnitude of the variable timeBodyGyroJerkMeanX, timeBodyGyroJerkMeanY and timeBodyGyroJerkMeanZ, calculated with the Euclidean norm (numeric).
+42. **timeBodyGyroJerkMagStd** Magnitude of the variable timeBodyGyroJerkStdX, timeBodyGyroJerkStdY and timeBodyGyroJerkStdZ, calculated with the Euclidean norm (numeric).
+43. **frequencyBodyAccMeanX** The mean of the X axis for the acceleration for body acceleration signals on the frequency domain (numeric).
+44. **frequencyBodyAccMeanY** The mean of the Y axis for the acceleration for body acceleration signals on the frequency domain (numeric).
+45. **frequencyBodyAccMeanZ** The mean of the Z axis for the acceleration for body acceleration signals on the frequency domain (numeric).
+46. **frequencyBodyAccStdX** The standard deviation of the X axis for the acceleration for body acceleration signals on the frequency domain (numeric).
+47. **frequencyBodyAccStdY** The standard deviation of the Y axis for the acceleration for body acceleration signals on the frequency domain (numeric).
+48. **frequencyBodyAccStdZ** The standard deviation of the Z axis for the acceleration for body acceleration signals on the frequency domain (numeric).
+49. **frequencyBodyAccJerkMeanX** The mean of the X axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
+50. **frequencyBodyAccJerkMeanY** The mean of the Y axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
+51. **frequencyBodyAccJerkMeanZ** The mean of the Z axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
+52. **frequencyBodyAccJerkStdX** The standard deviation of the X axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
+53. **frequencyBodyAccJerkStdY** The standard deviation of the Y axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
+54. **frequencyBodyAccJerkStdZ** The standard deviation of the Z axis for the Jerk signal for the body linear acceleration on the frequency domain (numeric).
+55. **frequencyBodyGyroMeanX** The mean of the X axis for the angular velocity on the frequency domain (numeric). 
+56. **frequencyBodyGyroMeanY** The mean of the Y axis for the angular velocity on the frequency domain (numeric). 
+57. **frequencyBodyGyroMeanZ** The mean of the Z axis for the angular velocity on the frequency domain (numeric).
+58. **frequencyBodyGyroStdX** The standard deviation of the X axis for the angular velocity on the frequency domain (numeric).
+59. **frequencyBodyGyroStdY** The standard deviation of the Y axis for the angular velocity on the frequency domain (numeric). 
+60. **frequencyBodyGyroStdZ** The standard deviation of the Z axis for the angular velocity on the frequency domain (numeric).
+61. **frequencyBodyAccMagMean** Magnitude of the variable frequencyBodyAccMeanX, frequencyBodyAccMeanY and frequencyBodyAccMeanZ, calculated with the Euclidean norm (numeric).
+62. **frequencyBodyAccMagStd** Magnitude of the variable frequencyBodyAccStdX, frequencyBodyAccStdY and frequencyBodyAccStdZ, calculated with the Euclidean norm (numeric).
+63. **frequencyBodyAccJerkMagMean** Magnitude of the variable frequencyBodyAccJerkMagMeanX, frequencyBodyAccJerkMagMeanY and frequencyBodyAccJerkMagMeanZ, calculated with the Euclidean norm (numeric).
+64. **frequencyBodyAccJerkMagStd** Magnitude of the variable frequencyBodyAccJerkMagStdX, frequencyBodyAccJerkMagStdY and frequencyBodyAccJerkMagStdZ, calculated with the Euclidean norm (numeric).
+65. **frequencyBodyGyroMagMean** Magnitude of the variable frequencyBodyGyroMeanX, frequencyBodyGyroMeanY and frequencyBodyGyrokMeanZ, calculated with the Euclidean norm (numeric).
+66. **frequencyBodyGyrokMagStd** Magnitude of the variable frequencyBodyGyroStdX, frequencyBodyGyroStdY and frequencyBodyGyroStdZ, calculated with the Euclidean norm (numeric).
+67. **frequencyBodyGyroJerkMagMean** Magnitude of the variable frequencyBodyGyroJerkMeanX, frequencyBodyGyroJerkMeanY and frequencyBodyGyroJerkMeanZ, calculated with the Euclidean norm (numeric).
+68. **frequencyBodyGyroJerkMagStd** Magnitude of the variable frequencyBodyGyroJerkStdX, frequencyBodyGyroJerkStdY and frequencyBodyGyroJerkStdZ, calculated with the Euclidean norm (numeric).
 
 
 
