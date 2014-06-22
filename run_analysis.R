@@ -1,5 +1,5 @@
 #####Step 1: Merge the training and test data sets
-#Retriving the names of the train/test directories and files 
+##Retriving the names of the train/test directories and files 
 dir<-"UCI HAR Dataset"
 testDir<-"test"
 trainDir<-"train"
