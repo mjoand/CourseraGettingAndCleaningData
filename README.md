@@ -24,7 +24,7 @@
 The raw data set consists of a database built form the recordings of thirty subjects performing acitivities of daily living while carrying a waist-mounted smartphone
 with embeded inertial sensors.
 
-<cite>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 </cite>
+* Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
 
 For further information on the raw data set please see the [CodeBook](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md) included in this repository
 and the web page [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
@@ -38,7 +38,7 @@ For the script run_analysis.R to be run, it is pre required that the script and 
 or from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The binary zipped file can be downloaded into the working directory by running 
 the *download.file* function, with the mode argument set as “wb”, in the console and the **UCI HAR Dataset** folder extracted by means of the *unzip* function.
 Once the R script and the samsung data folder are in the working directory, running the command *source("run_analysis.R")* in the console will return 
-the tidy data set as a txt file, **tidyDataSet.txt** ,located in the working directory. 
+the tidy data set as a txt file that can be found in the working directory, **tidyDataSet.txt**. 
 
 
 ##### 6.Methodology
