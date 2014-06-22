@@ -21,6 +21,13 @@
 ##### 2.Objectives of the Peer Assessed Project
 
 ##### 3.The raw data set
+The raw data set consists of a database built form the recordings of thirty subjects performing acitivities of daily living while carrying a waist-mounted smartphone
+with embeded inertial sensors.
+
+<cite>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 </cite>
+
+For further information on the raw data set please see the [CodeBook](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/CodeBook.md) included in this repository
+and the web page [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ##### 4.The tidy data set
 
