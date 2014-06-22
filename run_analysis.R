@@ -10,6 +10,7 @@ trainActivityFile<-"y_train.txt"
 testDataFile<-"X_test.txt"
 trainDataFile<-"X_train.txt"
 # Merging the train/test Subject columns
+## fila.path was used to construct the the file paths in a platform-independent way
 trainSubject<-read.table(file.path(dir,trainDir,trainSubjectFile),header=FALSE)
 testSubject<-read.table(file.path(dir,testDir,testSubjectFile),header=FALSE)
 subject<-rbind(trainSubject,testSubject)
@@ -40,7 +41,9 @@ activityLabels<-read.table(file.path(dir,activityLabelsFile),header=FALSE,string
 colnames(activityLabels)<-c("id","activity")
 colLabels<-c("subjectId","activityId",as.vector(features[,2][meanStdCols]))
 colnames(untidyDataSet)<-colLabels
+#merging colLabels and untidyDataSet by "id" columns 
 untidyDataSet<-merge(x=untidyDataSet,y=activityLabels,by.x="activityId",by.y="id")
+#eliminating the no longer needed "ActivityId" column from the data set
 untidyDataSet$activityId<-NULL
 
 #####Step 4: Label the data set with appropriate descriptive variable names
