@@ -68,22 +68,14 @@ Please see also commented code on  the script [**run_analysis.R**](https://githu
 
 After the Samsung data has been stored in the working directory and the UCI HAR Dataset folder has been unzipped the R script can be run and the five steps described in section 2 executed sequentially:
 
-* Step 1: Merge the training and test data sets.  
-
-The corresponding subject and activity identification columns are concatenated and the train/test data sets are merged, creating an “untidy” data set.
-* Step 2: Extract the measurements on the mean and standard deviation for each measurement. 
-The columns corresponding to measurements on mean and standard deviation are identified by means of key words using the **grep** function. 
+* **Step 1: Merge the training and test data sets**.The corresponding subject and activity identification columns are concatenated and the train/test data sets are merged, creating an “untidy” data set.
+* **Step 2: Extract the measurements on the mean and standard deviation for each measurement.** The columns corresponding to measurements on mean and standard deviation are identified by means of key words using the **grep** function. 
 The “untidy” data set is sub seted with only the subject and activity identification columns and the columns corresponding to measurements on mean and standard deviation being kept.
-* Step 3: Descriptive activity names. 
-
-The numeric identifiers in the  activity identification column are replaced by activity names.
-*Step 4: Label the data set with appropriate descriptive variable names.
-
+* **Step 3: Descriptive activity names.** The numeric identifiers in the  activity identification column are replaced by activity names.
+* **Step 4: Label the data set with appropriate descriptive variable names**
 A character vector of column names is obtained from the the header of the “untidy” data set by renaming them using the camel case notation. This was done using the **gsubs** function. 
 The charater vector is then used to label the “untidy” data set using the **colnames** function.
-* Step 5:Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-The tidy data set was created using the **aggregate** function, with FUN defined as the average function **mean**, and returned as a text file: [tidyDataSet.txt](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/tidyDataSet.txt).
+* **Step 5:Creates a second, independent tidy data set with the average of each variable for each activity and each subject.** The tidy data set was created using the **aggregate** function, with FUN defined as the average function **mean**, and returned as a text file: [tidyDataSet.txt](https://github.com/mjoand/courseraGettingAndCleaningData/blob/master/tidyDataSet.txt).
 
 
 
